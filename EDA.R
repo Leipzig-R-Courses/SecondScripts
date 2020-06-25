@@ -365,3 +365,4 @@ diamonds %>%
   count(cut, clarity) %>% 
   ggplot(aes(clarity, cut, fill = n)) + 
   geom_tile()
+
